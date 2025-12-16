@@ -3,9 +3,9 @@
 ## Tutorials
 
 ### Mathematical Foundations
-- [Linear Regression - Mathematical Foundation](docs/tutorials/linear_regression_math.md)
-- [Logistic Regression - Derivation](docs/tutorials/logistic_regression_math.md)
-- [Neural Networks - Backpropagation](docs/tutorials/backpropagation.md)
+- [Linear Regression - Mathematical Foundation](tutorials/linear_regression_math.md)
+- [Logistic Regression - Derivation](tutorials/logistic_regression_math.md)
+- [Neural Networks - Backpropagation](tutorials/backpropagation.md)
 
 ### Jupyter Notebooks
 - [Linear Regression Demo](notebooks/01_linear_regression_demo.ipynb)
