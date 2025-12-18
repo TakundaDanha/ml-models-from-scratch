@@ -256,11 +256,11 @@ class DecisionTreeClassifier:
             width_child = width / 2
             
             # Left child
-            x_left = x - width / 4
+            x_left = x - width/2
             self._calculate_positions(node.left, x_left, y_child, width_child, depth + 1)
             
             # Right child
-            x_right = x + width / 4
+            x_right = x + width/2
             self._calculate_positions(node.right, x_right, y_child, width_child, depth + 1)
     
     def _draw_node(self, ax, node, parent_pos=None):
