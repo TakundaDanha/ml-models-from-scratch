@@ -8,12 +8,12 @@ class Node:
         self.threshold = threshold
         self.left = left
         self.right = right
-        self.value = value  # FIXED: was missing = value
+        self.value = value  
         
 class DecisionTreeRegressor:
     def __init__(self, max_depth=None, min_samples_split=2):
         self.max_depth = max_depth
-        self.min_samples_split = min_samples_split  # FIXED: was min_samples_splits (typo)
+        self.min_samples_split = min_samples_split  
         self.root = None
         self.n_features = None
         self.feature_names = None
@@ -23,7 +23,7 @@ class DecisionTreeRegressor:
         X = np.array(X)
         y = np.array(y)
         self.n_features = X.shape[1]
-        # REMOVED: self.n_classes (not needed for regression)
+        
         self.root = self._build_tree(X, y, depth=0)
         return self
     

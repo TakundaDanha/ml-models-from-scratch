@@ -167,11 +167,32 @@ print(f"Parameters: {model.get_params()}")
 - [Ridge Regression - Mathematical Foundation](tutorials/ridge_regression_math.md)
 - [Logistic Regression - Derivation](tutorials/logistic_regression_math.md)
 
+#### Tree Models
+- [Decision Trees - Mathematical Foundation](tutorials/decision_tree_math.md)
+- [Regression Trees - Mathematical Foundation](tutorials/regression_tree_math.md)
+- [Random Forests - Mathematical Foundation](tutorials/random_forests_math.md)
+
+### Models from scratch
+#### Linear Models
+- [Linear Regression](models/linear_models/linear_regression.py)
+- [Ridge Regression](modesls/linear_models/ridge_regression.py)
+- [Logistic Regression](models/linear_models/logistic_regression.py)
+
+#### Tree Models
+- [Decision Trees](models/tree_models/decision_tree.py)
+- [Regression Trees](models/tree_models/regression_tree.py)
+- [Random Forests](models/tree_models/random_forest.py)
+
 ### Jupyter Notebooks
 
 #### Linear Models
 - [Linear/Ridge Regression Demo](notebooks/01_linear_regression_demo.ipynb)
 - [Logistic Regression Demo](notebooks/02_logistic_regression_demo.ipynb)
+
+#### Tree Models
+- [Decision Trees Demo](notebooks/03_decision_trees_demo.ipynb)
+- [Regression Trees Demo](notebooks/04_regression_trees_demo.ipynb)
+- [Random Forests Demo](notebooks/05_random_forests_demo.ipynb)
 
 ## 🎓 Learning Path
 
