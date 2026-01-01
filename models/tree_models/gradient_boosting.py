@@ -1,5 +1,5 @@
 import numpy as np
-from collections import Counters
+from collections import Counter
 
 class Node:
     def __init__(self, feature=None, threshold=None, left=None,right=None,value=None):
@@ -42,7 +42,7 @@ class RegressionTree:
             return self._create_leaf(y)
         
         # Split dataset
-        left_idxs = X[:, best_feature] <= best_feature
+        left_idxs = X[:, best_feature] <= best_threshold
         right_idxs = ~left_idxs
         
         # Check min_samples_leaf
@@ -67,7 +67,7 @@ class RegressionTree:
             return None, None
         
         # Current MSE
-        parent_mse = self._criterion_mse(y)
+        parent_mse = self._calculate_mse(y)
         
         best_gain = -np.inf
         best_feature = None
@@ -122,7 +122,7 @@ class RegressionTree:
             return node.value
         
         if x[node.feature] <= node.threshold:
-            return self._traverse_tree_tree(x, node.left)
+            return self._traverse_tree(x, node.left)
         else:
             return self._traverse_tree(x, node.right)
         
@@ -316,8 +316,10 @@ class GradientBoostingClassifier:
             y = np.where(y == self.classes_[0],0,1)
             
         n_samples = X.shape[0]
-        
+        self.init_value = self._initialize_model(y)
         current_predictions = np.full(n_samples, self.init_value)
+        
+    
         
         # Iteratively add trees
         self.trees = []
