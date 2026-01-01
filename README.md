@@ -2,6 +2,45 @@
 
 A comprehensive educational resource for understanding machine learning algorithms from the ground up. This library provides detailed mathematical foundations, pure NumPy implementations, and practical examples using publicly available datasets.
 
+## 📝 Tutorials
+
+### Mathematical Foundations
+
+#### Linear Models
+- [Linear Regression - Mathematical Foundation](tutorials/linear_regression_math.md)
+- [Ridge Regression - Mathematical Foundation](tutorials/ridge_regression_math.md)
+- [Logistic Regression - Derivation](tutorials/logistic_regression_math.md)
+
+#### Tree Models
+- [Decision Trees - Mathematical Foundation](tutorials/decision_tree_math.md)
+- [Regression Trees - Mathematical Foundation](tutorials/regression_tree_math.md)
+- [Random Forests - Mathematical Foundation](tutorials/random_forests_math.md)
+- [Gradient Boosting - Mathematical Foundation](tutorials/gradient_boosting_math.md)
+
+### Models from scratch
+#### Linear Models
+- [Linear Regression](models/linear_models/linear_regression.py)
+- [Ridge Regression](modesls/linear_models/ridge_regression.py)
+- [Logistic Regression](models/linear_models/logistic_regression.py)
+
+#### Tree Models
+- [Decision Trees](models/tree_models/decision_tree.py)
+- [Regression Trees](models/tree_models/regression_tree.py)
+- [Random Forests](models/tree_models/random_forest.py)
+- [Gradient Boosting](models/tree_models/gradient_boosting.py)
+
+### Jupyter Notebooks
+
+#### Linear Models
+- [Linear/Ridge Regression Demo](notebooks/01_linear_regression_demo.ipynb)
+- [Logistic Regression Demo](notebooks/02_logistic_regression_demo.ipynb)
+
+#### Tree Models
+- [Decision Trees Demo](notebooks/03_decision_trees_demo.ipynb)
+- [Regression Trees Demo](notebooks/04_regression_trees_demo.ipynb)
+- [Random Forests Demo](notebooks/05_random_forests_demo.ipynb)
+- [Gradient Boosting Demo](notebooks/06_gradient_boosting_demo.ipynb)
+
 ## 🎯 Project Goal
 
 Create a complete learning resource for students and practitioners of machine learning by:
@@ -13,18 +52,17 @@ Create a complete learning resource for students and practitioners of machine le
 ## 📚 What's Included
 
 ### Current Models
-
-#### Linear Models
 - **Linear Regression** - Gradient descent with MSE loss
 - **Ridge Regression** - Linear regression with L2 regularization
 - **Logistic Regression** - Binary classification with cross-entropy loss
+- **Decision Trees** - Tree-based learning
+- **Random Forests** - Ensemble methods
+- **Gradient Boosting** - Ensemble methods
 
 #### Coming Soon
 - **Lasso Regression** - L1 regularization for feature selection
 - **Elastic Net** - Combined L1 and L2 regularization
 - **Polynomial Regression** - Non-linear relationships
-- **Decision Trees** - Tree-based learning
-- **Random Forests** - Ensemble methods
 - **Support Vector Machines (SVM)** - Margin-based classification
 - **K-Nearest Neighbors (KNN)** - Instance-based learning
 - **Naive Bayes** - Probabilistic classification
@@ -157,42 +195,6 @@ print(f"Parameters: {model.get_params()}")
 ## 📊 Datasets Used
 
 - Will update this section once I've completed more models
-
-## 📝 Tutorials
-
-### Mathematical Foundations
-
-#### Linear Models
-- [Linear Regression - Mathematical Foundation](tutorials/linear_regression_math.md)
-- [Ridge Regression - Mathematical Foundation](tutorials/ridge_regression_math.md)
-- [Logistic Regression - Derivation](tutorials/logistic_regression_math.md)
-
-#### Tree Models
-- [Decision Trees - Mathematical Foundation](tutorials/decision_tree_math.md)
-- [Regression Trees - Mathematical Foundation](tutorials/regression_tree_math.md)
-- [Random Forests - Mathematical Foundation](tutorials/random_forests_math.md)
-
-### Models from scratch
-#### Linear Models
-- [Linear Regression](models/linear_models/linear_regression.py)
-- [Ridge Regression](modesls/linear_models/ridge_regression.py)
-- [Logistic Regression](models/linear_models/logistic_regression.py)
-
-#### Tree Models
-- [Decision Trees](models/tree_models/decision_tree.py)
-- [Regression Trees](models/tree_models/regression_tree.py)
-- [Random Forests](models/tree_models/random_forest.py)
-
-### Jupyter Notebooks
-
-#### Linear Models
-- [Linear/Ridge Regression Demo](notebooks/01_linear_regression_demo.ipynb)
-- [Logistic Regression Demo](notebooks/02_logistic_regression_demo.ipynb)
-
-#### Tree Models
-- [Decision Trees Demo](notebooks/03_decision_trees_demo.ipynb)
-- [Regression Trees Demo](notebooks/04_regression_trees_demo.ipynb)
-- [Random Forests Demo](notebooks/05_random_forests_demo.ipynb)
 
 ## 🎓 Learning Path
 
