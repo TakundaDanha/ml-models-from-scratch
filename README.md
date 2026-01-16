@@ -47,6 +47,9 @@ A comprehensive educational resource for understanding machine learning algorith
 - [Random Forests Demo](notebooks/05_random_forests_demo.ipynb)
 - [Gradient Boosting Demo](notebooks/06_gradient_boosting_demo.ipynb)
 
+#### Optimization
+- [Support Vector Machines Demo](notebooks/07_svm_demo.ipynb)
+
 ## 🎯 Project Goal
 
 Create a complete learning resource for students and practitioners of machine learning by:
