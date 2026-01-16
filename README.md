@@ -67,12 +67,12 @@ Create a complete learning resource for students and practitioners of machine le
 - **Decision Trees** - Tree-based learning
 - **Random Forests** - Ensemble methods
 - **Gradient Boosting** - Ensemble methods
+- **Support Vector Machines (SVM)** - Margin-based classification
 
 #### Coming Soon
 - **Lasso Regression** - L1 regularization for feature selection
 - **Elastic Net** - Combined L1 and L2 regularization
 - **Polynomial Regression** - Non-linear relationships
-- **Support Vector Machines (SVM)** - Margin-based classification
 - **K-Nearest Neighbors (KNN)** - Instance-based learning
 - **Naive Bayes** - Probabilistic classification
 - **K-Means Clustering** - Unsupervised learning
