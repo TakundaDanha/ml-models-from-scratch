@@ -18,7 +18,7 @@ A comprehensive educational resource for understanding machine learning algorith
 - [Gradient Boosting - Mathematical Foundation](tutorials/gradient_boosting_math.md)
 
 #### Optimization
-- [Support Vector Machines -  Mathematical Founddations](tutorials/svm_math.pdf)
+- [Support Vector Machines -  Mathematical Foundations](tutorials/svm_math.pdf)
 
 ### Models from scratch
 #### Linear Models
