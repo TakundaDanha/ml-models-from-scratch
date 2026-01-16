@@ -17,6 +17,9 @@ A comprehensive educational resource for understanding machine learning algorith
 - [Random Forests - Mathematical Foundation](tutorials/random_forests_math.md)
 - [Gradient Boosting - Mathematical Foundation](tutorials/gradient_boosting_math.md)
 
+#### Optimization
+- [Support Vector Machines -  Mathematical Founddations](tutorials/svm_math.pdf)
+
 ### Models from scratch
 #### Linear Models
 - [Linear Regression](models/linear_models/linear_regression.py)
@@ -28,6 +31,9 @@ A comprehensive educational resource for understanding machine learning algorith
 - [Regression Trees](models/tree_models/regression_tree.py)
 - [Random Forests](models/tree_models/random_forest.py)
 - [Gradient Boosting](models/tree_models/gradient_boosting.py)
+
+#### Optimization
+- [Support Vector Machines](models/svm/svm.py)
 
 ### Jupyter Notebooks
 
